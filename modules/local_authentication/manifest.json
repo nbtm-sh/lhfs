@@ -1,0 +1,21 @@
+{
+    "module": {
+        "name": "Local Database Authentication",
+        "description": "Local user authenticaion through an sqlite3 database",
+        "author": "nbtm",
+        "version": "1.0.0"
+    },
+    "config": {
+        "/": {
+            "database_file": {
+                "type": "text",
+                "display_name": "Database File",
+                "getter": "get_database_file_name",
+                "setter": "set_database_file_name"
+            },
+            "users": {
+                
+            }
+        }
+    }
+}

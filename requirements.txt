@@ -1,0 +1,4 @@
+flask
+mysql-connector-python
+sqlite3
+python-ldap
